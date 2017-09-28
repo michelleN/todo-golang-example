@@ -20,13 +20,13 @@ Steps for getting up and running,
 2. Clone the repo
 
     ```
-    git clone https://github.com/westonplatter/example-golang-todo.git
+    git clone https://github.com/michelleN/todo-golang-example.git
     ```
 
 3. Install project dependencies
 
     ```
-    cd example-golang-todo
+    cd todo-golang-example
     go get
     ```
 
@@ -50,7 +50,7 @@ Steps for getting up and running,
 
     ```sql
     CREATE TABLE `Todo` (
-      `Id`          int(11) NOT NULL,
+      `Id`          int(11) NOT NULL AUTO_INCREMENT,
       `Title`       varchar(255) DEFAULT NULL,
       `Category`    varchar(255) DEFAULT NULL,
       `State`       varchar(255) DEFAULT NULL,
